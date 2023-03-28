@@ -12,6 +12,8 @@ public class MyAssignment {
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
         MyAssignment grade = new MyAssignment();
+        System.out.println("Enter a statement: ");
+        System.out.println(grade.hasPalindrome(in.nextLine()));
 
     }
 
